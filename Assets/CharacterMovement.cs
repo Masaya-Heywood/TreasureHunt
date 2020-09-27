@@ -10,7 +10,7 @@ public class CharacterMovement : MonoBehaviour
     public float speed = 10f;
     public float groundGravity = 1f;
     public float airGravity = 7f;
-    private bool movement = false;
+    //private bool movement = false;
 
     //private Vector2 playerPosition = new Vector2(transform.position.x, transform.position.y);
 
@@ -39,7 +39,7 @@ public class CharacterMovement : MonoBehaviour
             //transform.position = Vector2.Lerp(transform.position, mousePosition, Time.deltaTime);
             //rb2D.AddForce(transform.position * speed * Time.deltaTime, ForceMode2D.Impulse);
             //transform.position = Vector2.MoveTowards(transform.position, mousePosition, speed * Time.deltaTime);
-            movement = true;
+            //movement = true;
         }
     }
 
