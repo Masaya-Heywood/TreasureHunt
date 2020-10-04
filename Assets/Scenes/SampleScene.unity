@@ -1785,7 +1785,7 @@ GameObject:
   - component: {fileID: 197063424}
   m_Layer: 0
   m_Name: enemy (2)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1937,7 +1937,7 @@ GameObject:
   - component: {fileID: 201358919}
   m_Layer: 0
   m_Name: enemy (7)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2394,7 +2394,7 @@ GameObject:
   - component: {fileID: 255503295}
   m_Layer: 0
   m_Name: enemy (6)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3585,7 +3585,7 @@ GameObject:
   - component: {fileID: 337324057}
   m_Layer: 0
   m_Name: enemy (8)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7120,7 +7120,7 @@ GameObject:
   - component: {fileID: 617754749}
   m_Layer: 0
   m_Name: enemy (3)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7871,7 +7871,7 @@ GameObject:
   - component: {fileID: 669914242}
   m_Layer: 0
   m_Name: enemy (4)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8347,7 +8347,7 @@ GameObject:
   - component: {fileID: 698447644}
   m_Layer: 0
   m_Name: enemy (13)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11170,7 +11170,7 @@ GameObject:
   - component: {fileID: 905467273}
   m_Layer: 0
   m_Name: enemy (10)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11776,9 +11776,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1912069eea984b46a2a89b6d71490b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
-  rb2D: {fileID: 938952715}
-  bullet: {fileID: 1023778848}
+  bulletSpeed: 10
+  rb2DBullet: {fileID: 0}
 --- !u!1 &939621519
 GameObject:
   m_ObjectHideFlags: 0
@@ -12118,7 +12117,7 @@ GameObject:
   - component: {fileID: 959207731}
   m_Layer: 0
   m_Name: enemy (17)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12898,7 +12897,7 @@ GameObject:
   - component: {fileID: 1015179942}
   m_Layer: 0
   m_Name: enemy (5)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13396,7 +13395,7 @@ GameObject:
   - component: {fileID: 1024706829}
   m_Layer: 0
   m_Name: enemy (16)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13548,7 +13547,7 @@ GameObject:
   - component: {fileID: 1026419515}
   m_Layer: 0
   m_Name: enemy (12)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15099,7 +15098,7 @@ GameObject:
   - component: {fileID: 1108222074}
   m_Layer: 0
   m_Name: enemy (11)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15822,7 +15821,7 @@ GameObject:
   - component: {fileID: 1190029055}
   m_Layer: 0
   m_Name: enemy (1)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16534,7 +16533,7 @@ GameObject:
   - component: {fileID: 1262281590}
   m_Layer: 0
   m_Name: enemy (15)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27124,7 +27123,7 @@ GameObject:
   - component: {fileID: 2082481832}
   m_Layer: 0
   m_Name: enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28032,7 +28031,7 @@ GameObject:
   - component: {fileID: 2146622785}
   m_Layer: 0
   m_Name: enemy (9)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

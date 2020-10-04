@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DemoRaycast : MonoBehaviour
 {
-    public float raycastDistance = 4f;
+    public float raycastDistance = 7f;
 
     // Start is called before the first frame update
     void Start()
@@ -15,9 +15,22 @@ public class DemoRaycast : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Ray2D myRay = new Ray2D(transform.position, transform.up);
+        if (Input.GetMouseButtonDown(0))
+        {
+            Ray2D myRay = new Ray2D(transform.position, transform.up);
+            RaycastHit2D rayHit = Physics2D.Raycast(myRay.origin, myRay.direction, raycastDistance);
 
-        Debug.DrawRay(myRay.origin, myRay.direction * raycastDistance, Color.white);
+            if (rayHit.collider != null)
+            {
+                if (rayHit.transform.gameObject.CompareTag("Enemy"))
+                {
+                    Destroy(rayHit.transform.gameObject);
+                }
+            }
+
+
+            Debug.DrawRay(myRay.origin, myRay.direction * raycastDistance, Color.white);
+        }
 
 
     }
