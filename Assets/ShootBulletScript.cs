@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class ShootBulletScript : MonoBehaviour
 {
-    public float speed = 10;
-    public Rigidbody2D rb2D;
-    public GameObject bullet;
+    public float bulletSpeed = 10f;
+    public Rigidbody2D rb2DBullet;
+    //public GameObject bullet;
     // Start is called before the first frame update
     void Start()
     {
-        rb2D = GetComponent<Rigidbody2D>();
 
     }
 
@@ -20,7 +19,13 @@ public class ShootBulletScript : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             GetComponent<AudioSource>().Play();
-            Instantiate(bullet, transform.position, transform.rotation);
-        }
-    }
-}
+
+            Rigidbody2D bullet = Instantiate(rb2DBullet, new Vector3(transform.position.x, transform.position.y, transform.position.z), transform.rotation) as Rigidbody2D;
+
+            bullet.GetComponent<Rigidbody2D>().AddForce(transform.right * bulletSpeed);
+
+             //coolDown = Time.time + attackSpeed;
+         }
+     }
+ }
+
