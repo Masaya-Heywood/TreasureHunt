@@ -16,6 +16,6 @@ public class ScoreChange : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        score.text = string.Format("Treasure: {0}/4", controller.trophyScore);
+        score.text = string.Format("Treasure: {0}/3", controller.trophyScore);
     }
 }
