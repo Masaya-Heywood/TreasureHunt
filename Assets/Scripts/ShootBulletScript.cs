@@ -6,7 +6,7 @@ public class ShootBulletScript : MonoBehaviour
 {
     public float bulletSpeed = 10f;
     public Rigidbody2D rb2DBullet;
-    //public GameObject bullet;
+    public GameObject bullet;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,13 +18,11 @@ public class ShootBulletScript : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            GetComponent<AudioSource>().Play();
+            //GetComponent<AudioSource>().Play();
 
-            Rigidbody2D bullet = Instantiate(rb2DBullet, new Vector3(transform.position.x, transform.position.y, transform.position.z), transform.rotation) as Rigidbody2D;
+            GameObject newBullet = Instantiate(bullet, new Vector3(transform.position.x, transform.position.y, transform.position.z), transform.rotation);
 
-            bullet.GetComponent<Rigidbody2D>().AddForce(transform.right * bulletSpeed);
-
-             //coolDown = Time.time + attackSpeed;
+            newBullet.GetComponent<Rigidbody2D>().AddForce(transform.up * bulletSpeed, ForceMode2D.Impulse);
          }
      }
  }
