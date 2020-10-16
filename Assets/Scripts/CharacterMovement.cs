@@ -45,7 +45,7 @@ public class CharacterMovement : MonoBehaviour
         {
             rb2D.velocity = Vector3.zero;
         }
-        Debug.Log(dist);
+        //Debug.Log(dist);
 
 
         //Movement Execution

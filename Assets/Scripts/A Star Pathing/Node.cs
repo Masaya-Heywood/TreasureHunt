@@ -13,7 +13,7 @@ public class Node
     public int hCost;
     public Node parent;
 
-    public Node(bool assignWalkable, Vector2 assignWorldPos)
+    public Node(bool assignWalkable, Vector3 assignWorldPos)
     {
         walkable = assignWalkable;
         worldPos = assignWorldPos;
