@@ -9243,7 +9243,7 @@ MonoBehaviour:
   thisSprite: {fileID: 938952711}
   rb2D: {fileID: 938952715}
   initalSpeed: 1000
-  constantSpeed: 500
+  constantSpeed: 750
 --- !u!58 &938952714
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10290,9 +10290,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1020573886}
   - component: {fileID: 1020573890}
-  - component: {fileID: 1020573888}
   - component: {fileID: 1020573887}
   - component: {fileID: 1020573889}
+  - component: {fileID: 1020573891}
+  - component: {fileID: 1020573888}
   m_Layer: 0
   m_Name: enemy_zombie
   m_TagString: Enemy
@@ -10308,7 +10309,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1020573885}
   m_LocalRotation: {x: -0, y: -0, z: -0.7054984, w: -0.70871156}
-  m_LocalPosition: {x: -1309.0004, y: -15, z: 0}
+  m_LocalPosition: {x: -1322, y: 51.2, z: 0}
   m_LocalScale: {x: 18.371761, y: 96.921, z: 1}
   m_Children: []
   m_Father: {fileID: 340778498}
@@ -10326,7 +10327,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 100
+  m_Mass: 1
   m_LinearDrag: 5
   m_AngularDrag: 5
   m_GravityScale: 0
@@ -10335,8 +10336,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &1020573888
-BoxCollider2D:
+--- !u!58 &1020573888
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -10348,19 +10349,9 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.018663526, y: 0.05071239}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_Offset: {x: 0, y: 0.00000333786}
   serializedVersion: 2
-  m_Size: {x: 0.6868377, y: 0.69559765}
-  m_EdgeRadius: 0
+  m_Radius: 0.5000002
 --- !u!114 &1020573889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10424,6 +10415,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1020573891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020573885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6602354024d94cb4198e039c1faa1bc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 938952712}
+  speed: 350
+  aggroThreshold: 7
 --- !u!1 &1023380774
 GameObject:
   m_ObjectHideFlags: 0
@@ -16766,8 +16772,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1634879320}
-  - component: {fileID: 1634879321}
   - component: {fileID: 1634879322}
+  - component: {fileID: 1634879321}
   m_Layer: 0
   m_Name: A*
   m_TagString: Untagged
@@ -16798,12 +16804,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1634879319}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f78988ba11239044291e9e37b6541947, type: 3}
+  m_Script: {fileID: 11500000, guid: 478e767c91c4f974e8b1357973b9c4c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  seeker: {fileID: 1020573886}
-  target: {fileID: 938952712}
-  grid: {fileID: 0}
 --- !u!114 &1634879322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16816,12 +16819,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a3808ada247f8a499ce0d014bf66812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerChar: {fileID: 0}
+  displayGridGizmos: 0
   unwalkableMask:
     serializedVersion: 2
     m_Bits: 1024
-  gridWorldSize: {x: 300, y: 300}
-  nodeRadius: 1
+  gridWorldSize: {x: 100, y: 100}
+  nodeRadius: 0.5
 --- !u!1 &1637259812
 GameObject:
   m_ObjectHideFlags: 0
