@@ -41,7 +41,7 @@ public class CharacterMovement : MonoBehaviour
         {
             Vector3 dir = (mousePosition - transform.position).normalized;
             rb2D.velocity = dir * (constantSpeed * Time.deltaTime);
-        } else if (dist <= 10.0300)
+        } else if (dist <= .5)
         {
             rb2D.velocity = Vector3.zero;
         }

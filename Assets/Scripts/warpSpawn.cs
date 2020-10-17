@@ -5,21 +5,24 @@ using UnityEngine;
 public class warpSpawn : MonoBehaviour
 {
     public GameObject playerCharacter;
-    public bool warp = false;
+    public bool warpInactive = true;
     // Start is called before the first frame update
     void Start()
     {
-        //playerCharacter = GameObject.Find("obj_PlayerCharacter");
+        playerCharacter = GameObject.Find("obj_PlayerCharacter");
         
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (warp == true)
+        if (collision.gameObject == playerCharacter)
         {
-            playerCharacter.transform.position = transform.position;
-            warp = false;
+            playerCharacter.GetComponent<PlayerUnitLogic>().currentWarp.GetComponent<warpSpawn>().warpInactive = true; //set previous warp to inactive, this doesn't look elegant
+
+            playerCharacter.GetComponent<PlayerUnitLogic>().currentWarp = gameObject; // set current warp to active
+            warpInactive = false;
         }
     }
 }
+
+

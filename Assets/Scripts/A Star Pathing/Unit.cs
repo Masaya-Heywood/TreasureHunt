@@ -14,8 +14,9 @@ public class Unit : MonoBehaviour
 
 
 	Vector2[] path;
+	public Vector2 pathDirection;
 	int targetIndex;
-	int dist;
+	public int dist;
 
 	void Start()
 	{
@@ -68,7 +69,7 @@ public class Unit : MonoBehaviour
 
 				//transform.position = Vector2.MoveTowards(transform.position, currentWaypoint, speed * Time.deltaTime);
 
-				Vector2 pathDirection = (currentWaypoint - (Vector2)transform.position).normalized;
+				pathDirection = (currentWaypoint - (Vector2)transform.position).normalized;
 				rb2D.velocity = pathDirection * (speed * Time.deltaTime);
 				yield return null;
 
