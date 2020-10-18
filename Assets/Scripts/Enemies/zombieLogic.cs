@@ -11,10 +11,15 @@ public class zombieLogic : MonoBehaviour
     private Unit unitCalcs;
     public Rigidbody2D rb2D; // { get; set; }
 
+    private GameObject playerCharacter;
+    public PlayerUnitLogic player;
+
     void Start()
     {
         unitCalcs = gameObject.GetComponent<Unit>();
         rb2D = gameObject.GetComponent<Rigidbody2D>();
+        playerCharacter = GameObject.Find("obj_PlayerCharacter");
+        player = playerCharacter.GetComponent<PlayerUnitLogic>();
     }
 
     // Update is called once per frame
@@ -43,12 +48,14 @@ public class zombieLogic : MonoBehaviour
             if (collision.gameObject.GetComponent<ProjectileLogic>().projDura <= 0)
             {
                 Destroy(collision.gameObject);
+
             }
 
             //die if health is 0
             if (health == 0)
             {
                 Destroy(gameObject);
+                player.health++;
             }
         }
 

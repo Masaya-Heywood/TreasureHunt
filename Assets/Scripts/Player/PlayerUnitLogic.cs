@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class PlayerUnitLogic : MonoBehaviour
 {
-    public float health = 10;
+    public float health = 5;
     public GameObject currentWarp;
     private CharacterMovement movement;
+    public float maxHealth = 5;
     void Start()
     {
         movement = gameObject.GetComponent<CharacterMovement>();
@@ -20,6 +21,11 @@ public class PlayerUnitLogic : MonoBehaviour
             transform.position = currentWarp.transform.position; // warp back to current warp if dead
             gameObject.GetComponent<CharacterMovement>().mousePosition = transform.position;
             health = 10;
+        }
+
+        if (health > maxHealth)
+        {
+            health = 5;
         }
     }
 

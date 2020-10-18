@@ -50,7 +50,7 @@ public class Unit : MonoBehaviour
 
 	IEnumerator FollowPath()
 	{
-		if (path.Length > 0 && dist <= aggroThreshold && path.Length < 3)
+		if (path.Length > 0 && dist <= aggroThreshold && path.Length < 4)
 		{
 			targetIndex = 0;
 			Vector2 currentWaypoint = path[0];
