@@ -293,7 +293,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 938952712}
-  speed: 350
+  speed: 200
   aggroThreshold: 7
   pathDirection: {x: 0, y: 0}
   dist: 0
@@ -310,7 +310,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
-  leapForce: 10
+  leapForce: 0
   rb2D: {fileID: 0}
 --- !u!50 &4264823
 Rigidbody2D:
@@ -1241,7 +1241,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 938952712}
-  speed: 350
+  speed: 200
   aggroThreshold: 7
   pathDirection: {x: 0, y: 0}
   dist: 0
@@ -1258,7 +1258,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
-  leapForce: 10
+  leapForce: 0
   rb2D: {fileID: 0}
 --- !u!50 &111513495
 Rigidbody2D:
@@ -2057,7 +2057,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 938952712}
-  speed: 350
+  speed: 200
   aggroThreshold: 7
   pathDirection: {x: 0, y: 0}
   dist: 0
@@ -2074,7 +2074,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
-  leapForce: 10
+  leapForce: 0
   rb2D: {fileID: 0}
 --- !u!50 &232078116
 Rigidbody2D:
@@ -2859,7 +2859,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 938952712}
-  speed: 350
+  speed: 150
   aggroThreshold: 7
   pathDirection: {x: 0, y: 0}
   dist: 0
@@ -2876,7 +2876,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
-  leapForce: 10
+  leapForce: 0
   rb2D: {fileID: 0}
 --- !u!50 &266657105
 Rigidbody2D:
@@ -3121,7 +3121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 938952712}
-  speed: 350
+  speed: 150
   aggroThreshold: 7
   pathDirection: {x: 0, y: 0}
   dist: 0
@@ -3138,7 +3138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
-  leapForce: 10
+  leapForce: 0
   rb2D: {fileID: 0}
 --- !u!50 &288393290
 Rigidbody2D:
@@ -3509,7 +3509,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 938952712}
-  speed: 350
+  speed: 150
   aggroThreshold: 7
   pathDirection: {x: 0, y: 0}
   dist: 0
@@ -3526,7 +3526,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
-  leapForce: 10
+  leapForce: 0
   rb2D: {fileID: 0}
 --- !u!50 &302178733
 Rigidbody2D:
@@ -3879,7 +3879,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 938952712}
-  speed: 350
+  speed: 150
   aggroThreshold: 7
   pathDirection: {x: 0, y: 0}
   dist: 0
@@ -3896,7 +3896,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
-  leapForce: 10
+  leapForce: 0
   rb2D: {fileID: 0}
 --- !u!50 &334441335
 Rigidbody2D:
@@ -8177,7 +8177,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 938952712}
-  speed: 350
+  speed: 150
   aggroThreshold: 7
   pathDirection: {x: 0, y: 0}
   dist: 0
@@ -8194,7 +8194,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
-  leapForce: 10
+  leapForce: 0
   rb2D: {fileID: 0}
 --- !u!50 &742452134
 Rigidbody2D:
@@ -11365,7 +11365,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 938952712}
-  speed: 350
+  speed: 200
   aggroThreshold: 7
   pathDirection: {x: 0, y: 0}
   dist: 0
@@ -11382,7 +11382,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
-  leapForce: 10
+  leapForce: 0
   rb2D: {fileID: 0}
 --- !u!50 &992132008
 Rigidbody2D:
@@ -11864,7 +11864,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
-  leapForce: 10
+  leapForce: 0
   rb2D: {fileID: 0}
 --- !u!212 &1020573890
 SpriteRenderer:
@@ -11929,7 +11929,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 938952712}
-  speed: 350
+  speed: 200
   aggroThreshold: 7
   pathDirection: {x: 0, y: 0}
   dist: 0
@@ -12429,7 +12429,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 938952712}
-  speed: 350
+  speed: 150
   aggroThreshold: 7
   pathDirection: {x: 0, y: 0}
   dist: 0
@@ -12446,7 +12446,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
-  leapForce: 10
+  leapForce: 0
   rb2D: {fileID: 0}
 --- !u!50 &1053365598
 Rigidbody2D:
@@ -14397,7 +14397,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 938952712}
-  speed: 350
+  speed: 150
   aggroThreshold: 7
   pathDirection: {x: 0, y: 0}
   dist: 0
@@ -14414,7 +14414,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
-  leapForce: 10
+  leapForce: 0
   rb2D: {fileID: 0}
 --- !u!50 &1196639105
 Rigidbody2D:
@@ -14788,7 +14788,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 938952712}
-  speed: 350
+  speed: 150
   aggroThreshold: 7
   pathDirection: {x: 0, y: 0}
   dist: 0
@@ -14805,7 +14805,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
-  leapForce: 10
+  leapForce: 0
   rb2D: {fileID: 0}
 --- !u!50 &1230838222
 Rigidbody2D:
@@ -15050,7 +15050,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 938952712}
-  speed: 350
+  speed: 200
   aggroThreshold: 7
   pathDirection: {x: 0, y: 0}
   dist: 0
@@ -15067,7 +15067,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
-  leapForce: 10
+  leapForce: 0
   rb2D: {fileID: 0}
 --- !u!50 &1259985036
 Rigidbody2D:
@@ -16329,7 +16329,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 938952712}
-  speed: 350
+  speed: 200
   aggroThreshold: 7
   pathDirection: {x: 0, y: 0}
   dist: 0
@@ -16346,7 +16346,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
-  leapForce: 10
+  leapForce: 0
   rb2D: {fileID: 0}
 --- !u!50 &1373634746
 Rigidbody2D:
@@ -16873,7 +16873,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 938952712}
-  speed: 350
+  speed: 150
   aggroThreshold: 7
   pathDirection: {x: 0, y: 0}
   dist: 0
@@ -16890,7 +16890,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
-  leapForce: 10
+  leapForce: 0
   rb2D: {fileID: 0}
 --- !u!50 &1421449821
 Rigidbody2D:
@@ -17606,7 +17606,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1460135613}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.4745863, y: -5.520162, z: 83.67969}
+  m_LocalPosition: {x: 0.44, y: -2.28, z: 83.67969}
   m_LocalScale: {x: 0.02402581, y: 0.18340775, z: 1}
   m_Children: []
   m_Father: {fileID: 643244725}
@@ -19045,7 +19045,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 938952712}
-  speed: 350
+  speed: 150
   aggroThreshold: 7
   pathDirection: {x: 0, y: 0}
   dist: 0
@@ -19062,7 +19062,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
-  leapForce: 10
+  leapForce: 0
   rb2D: {fileID: 0}
 --- !u!50 &1573553272
 Rigidbody2D:
@@ -19581,7 +19581,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 938952712}
-  speed: 350
+  speed: 200
   aggroThreshold: 7
   pathDirection: {x: 0, y: 0}
   dist: 0
@@ -19598,7 +19598,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
-  leapForce: 10
+  leapForce: 0
   rb2D: {fileID: 0}
 --- !u!50 &1606999251
 Rigidbody2D:
@@ -19840,7 +19840,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   gridWorldSize: {x: 100, y: 100}
-  nodeRadius: 0.5
+  nodeRadius: 0.3
 --- !u!1 &1635119861
 GameObject:
   m_ObjectHideFlags: 0
@@ -21558,7 +21558,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 938952712}
-  speed: 350
+  speed: 200
   aggroThreshold: 7
   pathDirection: {x: 0, y: 0}
   dist: 0
@@ -21575,7 +21575,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
-  leapForce: 10
+  leapForce: 0
   rb2D: {fileID: 0}
 --- !u!50 &1739573267
 Rigidbody2D:
@@ -21712,7 +21712,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 938952712}
-  speed: 350
+  speed: 200
   aggroThreshold: 7
   pathDirection: {x: 0, y: 0}
   dist: 0
@@ -21729,7 +21729,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
-  leapForce: 10
+  leapForce: 0
   rb2D: {fileID: 0}
 --- !u!50 &1755037536
 Rigidbody2D:
@@ -22838,7 +22838,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 938952712}
-  speed: 350
+  speed: 200
   aggroThreshold: 7
   pathDirection: {x: 0, y: 0}
   dist: 0
@@ -22855,7 +22855,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
-  leapForce: 10
+  leapForce: 0
   rb2D: {fileID: 0}
 --- !u!50 &1820275024
 Rigidbody2D:
@@ -23776,7 +23776,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 938952712}
-  speed: 350
+  speed: 200
   aggroThreshold: 7
   pathDirection: {x: 0, y: 0}
   dist: 0
@@ -23793,7 +23793,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
-  leapForce: 10
+  leapForce: 0
   rb2D: {fileID: 0}
 --- !u!50 &1877783944
 Rigidbody2D:
@@ -24038,7 +24038,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 938952712}
-  speed: 350
+  speed: 200
   aggroThreshold: 7
   pathDirection: {x: 0, y: 0}
   dist: 0
@@ -24055,7 +24055,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
-  leapForce: 10
+  leapForce: 0
   rb2D: {fileID: 0}
 --- !u!50 &1896927855
 Rigidbody2D:
@@ -24516,7 +24516,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 938952712}
-  speed: 350
+  speed: 150
   aggroThreshold: 7
   pathDirection: {x: 0, y: 0}
   dist: 0
@@ -24533,7 +24533,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
-  leapForce: 10
+  leapForce: 0
   rb2D: {fileID: 0}
 --- !u!50 &1940962877
 Rigidbody2D:
@@ -24670,7 +24670,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 938952712}
-  speed: 350
+  speed: 200
   aggroThreshold: 7
   pathDirection: {x: 0, y: 0}
   dist: 0
@@ -24687,7 +24687,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
-  leapForce: 10
+  leapForce: 0
   rb2D: {fileID: 0}
 --- !u!50 &1946293335
 Rigidbody2D:
@@ -26621,7 +26621,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 938952712}
-  speed: 350
+  speed: 200
   aggroThreshold: 7
   pathDirection: {x: 0, y: 0}
   dist: 0
@@ -26638,7 +26638,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
-  leapForce: 10
+  leapForce: 0
   rb2D: {fileID: 0}
 --- !u!50 &2062964895
 Rigidbody2D:
