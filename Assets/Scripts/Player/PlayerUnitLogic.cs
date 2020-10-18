@@ -6,8 +6,10 @@ public class PlayerUnitLogic : MonoBehaviour
 {
     public float health = 10;
     public GameObject currentWarp;
+    private CharacterMovement movement;
     void Start()
     {
+        movement = gameObject.GetComponent<CharacterMovement>();
     }
 
     // Update is called once per frame
@@ -16,6 +18,7 @@ public class PlayerUnitLogic : MonoBehaviour
         if (health <= 0)
         {
             transform.position = currentWarp.transform.position; // warp back to current warp if dead
+            gameObject.GetComponent<CharacterMovement>().mousePosition = transform.position;
             health = 10;
         }
     }

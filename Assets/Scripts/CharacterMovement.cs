@@ -6,7 +6,7 @@ public class CharacterMovement : MonoBehaviour
 {
     public SpriteRenderer thisSprite;
     public Rigidbody2D rb2D;
-    private Vector3 mousePosition = new Vector2(0, 0);
+    public Vector3 mousePosition = new Vector2(0, 0);
     private Vector3 mouseDirection = new Vector2(0, 0);
     private Vector3 constantMousePosition = new Vector2(0, 0);
     public float initalSpeed = 200f;

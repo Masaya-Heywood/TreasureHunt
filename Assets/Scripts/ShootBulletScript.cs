@@ -18,7 +18,7 @@ public class ShootBulletScript : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            //GetComponent<AudioSource>().Play();
+            //gameObject.GetComponent<AudioSource>().Play();
 
             GameObject newBullet = Instantiate(bullet, new Vector3(transform.position.x, transform.position.y, transform.position.z), transform.rotation);
 
